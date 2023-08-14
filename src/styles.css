@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+}
+#searchSection {
+  display: block;
+  margin-left: 40px;
+}
+
+body {
+  font-family: sans-serif;
+}
+#cityInput {
+  padding: 8px 8px 8px 8px;
+  width: 180px;
+  border-radius: 10px;
+  border: solid 1px grey;
+  height: 20px;
+}
+
+button {
+  padding: 10px 16px 10px 16px;
+  width: fit-content;
+  border-radius: 10px;
+  border: solid 1px grey;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: teal;
+  color: white;
+  font-size: 10pt;
+  margin: 0px 0px 0px 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+#time {
+  font-size: 10pt;
+  margin: 36px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.legend {
+  font-size: 10pt;
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#weather {
+  font-size: 12pt;
+  color: teal;
+  font-weight: 600;
+}
+#temp {
+  font-size: 12pt;
+  color: teal;
+  font-weight: 600;
+}
+
+.portal {
+  background-color: thistle;
+  width: 300px;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  margin: 20px 20px 20px 40px;
+  border-radius: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+svg {
+  margin-right: 12px;
+  fill: #ffffff;
+}
+#errorMsg {
+  color: red;
+  display: none;
+}
